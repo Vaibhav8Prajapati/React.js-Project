@@ -1,0 +1,64 @@
+
+.navbar-nav a{
+  font-size: 18px;
+}
+
+
+
+.product {
+  padding: 2rem;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-black-58 {
+  color: rgba(0, 0, 0, 0.58);
+}
+
+.display-5 {
+  font-size: 2.5rem;
+ }
+
+ .lead {
+   font-size: 1.25rem;
+  font-weight: 300;
+   line-height: 1.5;
+ }
+
+ /* About Page */
+ *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+#about-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 12%;
+}
+.about-left img{
+  width: 420px;
+  height: auto;
+  transform: translateY(50px);
+}
+.about-right {
+  width: 54%;
+}
+
+.about-right h1 {
+  color: #e74d06;
+  font-size: 37px;
+  margin-bottom: 5px;
+}
+
+.about-right p {
+  color: #444;
+  line-height: 26px;
+  font-size: 15px;
+}
